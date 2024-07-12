@@ -1,0 +1,14 @@
+/* src/components/ImageGallery/ImageGallery.module.css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .item {
+    flex: 1 1 calc(33.333% - 16px);
+    box-sizing: border-box;
+  }
+  
