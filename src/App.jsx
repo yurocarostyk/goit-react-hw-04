@@ -69,7 +69,7 @@ const App = () => {
     setSelectedImage(image);
   };
 
-  const closeModal = () => {
+  const handleCloseModal = () => {
     setSelectedImage(null);
   };
 
